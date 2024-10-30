@@ -1,3 +1,11 @@
+# Programmers: Harry Li, Cooper Nazar
+# Course:  CS151 sec 06
+# Due Date: 10/30/2024
+# Lab Assignment: House Flooring Program
+# Problem Statement: Write a program to calculate the price of flooring for the house
+# Data In: User inputs the width, length, and floor type
+# Data Out: The program outputs the cost of the flooring for each room and total cost
+
 def calculate_room_cost(width, length, flooring_type):
     # Cost per square foot for each flooring type
     if flooring_type == 'hardwood':
