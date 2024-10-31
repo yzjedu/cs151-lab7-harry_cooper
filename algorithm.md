@@ -1,14 +1,14 @@
-# Purpose: Calculate the cost based on the input of width, length, and floor type
-# Determine user package type Name: calculate_room_cost
-# Parameters:  width, length, flooring_type
+# Purpose: Calculate the cost based on the input of width, length, and floor type   
+# Name: calculate_room_cost     
+# Parameters:  width, length, flooring_type     
 # Algorithm: 
-# 1) Based on the input of the floor type set the correct cost corresponding to the floor type
-# 2) calculate the area room by multiplying the width and length
-# 3) multiply the area by the cost of the floor type 
-# 4) return the cost
-#
-# Purpose: check if the input of width or length is 
-# Determine user package type Name: check_float
+# 1) Based on the input of the floor type set the correct cost corresponding to the floor type   
+# 2) calculate the area room by multiplying the width and length   
+# 3) multiply the area by the cost of the floor type    
+# 4) return the cost    
+# 
+# Purpose: check if the input of width or length is a real number   
+# Name: check_float
 # Parameters: val
 # Algorithm: 
 # 1) check if the input value is a real number
@@ -16,9 +16,9 @@
 #    a) return value
 # 3) Otherwise return -999 
 #
-# Purpose: main 
-# Determine user package type Name: main
-# Parameters: none
+# Purpose: Determine user package type  
+# Name: main   
+# Parameters: none   
 # Algorithm:
 # 1) create variables for a loop and total price and set them to 0
 # 2) when x is less than 5

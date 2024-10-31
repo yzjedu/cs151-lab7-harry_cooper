@@ -71,7 +71,7 @@ def main():
         total_price += room_cost
         x += 1
     # output price of the total flooring for the house  
-    print(f'total cost for the flooring of the house is ${total_price:.2f}')
+    print(f'Total cost for the flooring of the house is ${total_price:.2f}')
     print('Thank you for using the Flooring Cost Calculator!')
 # run main
 main()
